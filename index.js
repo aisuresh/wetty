@@ -45,7 +45,7 @@ if (require.main === module) {
           demand: false,
           description: 'window title',
           type: 'string',
-          default: process.env.TITLE || 'WeTTy - The Web Terminal Emulator',
+          default: process.env.TITLE || 'Edge Shell Service',
         },
         sshauth: {
           demand: false,
