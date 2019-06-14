@@ -45,7 +45,7 @@ if (require.main === module) {
           demand: false,
           description: 'window title',
           type: 'string',
-          default: process.env.TITLE || 'Edge Shell Service',
+          default: process.env.TITLE || 'Edge Service Shell',
         },
         sshauth: {
           demand: false,
